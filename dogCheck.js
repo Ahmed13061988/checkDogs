@@ -5,7 +5,8 @@ const dogsKate = [4, 1, 15, 8, 3];
 
 const checkDogs = function (dogsJulia, dogsKate) {
   const catsJulia = dogsJulia.slice();
-  const onlyDogsJulia = catsJulia.splice(1, 2);
+  //const onlyDogsJulia = catsJulia.splice(1, 2);
+  const onlyDogsJulia = catsJulia.slice(1, 3);
 
   const both = onlyDogsJulia.concat(dogsKate);
   console.log(both);
